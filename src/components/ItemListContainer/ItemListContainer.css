@@ -1,0 +1,18 @@
+.main{
+    height: 1000px;
+    background-image: url(./img/main_back.png);
+    color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y:auto
+}
+
+.main h2 {
+    font-size: 100px;
+    color: black;
+    -webkit-text-stroke: 1px white; 
+    text-align: center;
+    border-style: groove;
+    border-radius: 4400px;
+    border-color: lightseagreen;
+  }

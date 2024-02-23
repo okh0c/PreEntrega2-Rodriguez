@@ -1,0 +1,68 @@
+.item-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  .item-detail {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; 
+    text-align: center;
+    position: relative;
+  }
+  
+  .item-detail-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .item-detail-quantity {
+    margin-bottom: 1em;
+  }
+  
+  .error {
+    color: #ff6b6b; 
+    margin-top: 10px;
+  }
+  
+  
+  .item-detail button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; 
+    margin-top: 10px; 
+  }
+  
+  .item-detail button:hover {
+    background-color: #45a049; 
+  }
+  
+  .item-detail button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+  }
+  
+  .item-detail input[type="number"] {
+    width: 50px; 
+    margin-right: 10px; 
+  }
+
+  .error-message {
+    color: #ff3860; 
+  }
+  
+  .success-message {
+    color: #23d160;
+  }
